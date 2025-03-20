@@ -1,0 +1,73 @@
+* {margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Poppins", Arial, sans-serif;
+}
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background: linear-gradient(135deg, #FF6B00, #FFD700);
+}
+.container {
+width: 350px;
+background: #0a271f;
+padding: 20px;
+border-radius: 12px;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+text-align: center;
+}
+.illustration {
+width: 50%;
+margin-bottom: 10px;
+}
+h2 {
+color: #fef;
+font-size: 18px;
+margin-bottom: 15px;
+}
+.input-group {
+    position: relative;
+    width: 100%;
+    margin: 8px 0;
+}
+.input-group input {
+    width: 100%;
+    padding: 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.input-group i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+}
+.btn {
+width: 100%;
+padding: 10px;
+background: #9DE0C0;
+border: none;
+border-radius: 6px;
+font-size: 14px;
+font-weight: bolder;
+cursor: pointer;
+color: #0a271f;
+}
+.btn:hover {
+background: #84c7a8;
+}
+.login-link {
+margin-top: 10px;
+font-size: 12px;
+color: #ffe;
+}
+.login-link a {
+text-decoration: none;
+color: #84c7a8;
+
+}
+
