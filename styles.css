@@ -1,4 +1,5 @@
-* {margin: 0;
+* {
+margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: "Poppins", Arial, sans-serif;
@@ -68,6 +69,5 @@ color: #ffe;
 .login-link a {
 text-decoration: none;
 color: #84c7a8;
-
 }
 
